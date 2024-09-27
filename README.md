@@ -16,8 +16,8 @@ This project is a fully functional **Advanced Blog** application built with **Ne
 
 ## Live Demo
 
-- **Vercel**: You can view the live demo of the project [here](https://simple-nextjs-project-287t-69ttw657f-saqibi4213s-projects.vercel.app/).
-- **Netlify**: The project is also live [here](https://nextjs-project--jade-donut-071d63.netlify.app/).
+- **Vercel**: You can view the live demo of the project [here]().
+- **Netlify**: The project is also live [here](https://66f70bef576d5ed6ae3bb435--startling-pastelito-d20bff.netlify.app/).
 
 ## Installation
 
