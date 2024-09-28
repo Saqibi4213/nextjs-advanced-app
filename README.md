@@ -15,9 +15,7 @@ This project is a fully functional **Advanced Blog** application built with **Ne
 - **Server-Side Rendering (SSR)**: Real-time data fetching for user profiles and blog post details.
 
 ## Live Demo
-
-- **Vercel**: You can view the live demo of the project [here]().
-- **Netlify**: The project is also live [here](https://66f70bef576d5ed6ae3bb435--startling-pastelito-d20bff.netlify.app/).
+- **Netlify**: The project is also live [here](https://deploy-preview-1--startling-pastelito-d20bff.netlify.app/).
 
 ## Installation
 
