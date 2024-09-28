@@ -2,57 +2,62 @@ import { FaTwitter, FaGithub, FaLinkedin, FaEnvelope, FaPhone } from 'react-icon
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white p-6 shadow-lg">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <p className="text-lg mb-4 md:mb-0">© 2024 Advanced Next.js | Mehria | Blog</p>
-        <div className="flex flex-col items-start">
-          <p className="font-bold text-lg">Contact Us</p>
-          <ul className="mt-2 space-y-2">
+    <footer className="bg-gray-900 text-white py-8 shadow-lg">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+        <div className="text-center md:text-left">
+          <p className="text-lg font-bold mb-2">© 2024 Advanced Next.js | Mehria | Blog</p>
+          <p className="text-sm text-gray-400">All rights reserved.</p>
+        </div>
+
+        <div className="flex flex-col items-start md:items-center">
+          <p className="font-bold text-lg mb-2">Contact Us</p>
+          <ul className="space-y-2 text-sm">
             <li>
               <a 
                 href="mailto:contact@jawaher.com" 
-                className="flex items-center hover:text-chocolate-700 transition duration-300"
+                className="flex items-center text-gray-400 hover:text-yellow-500 transition-all duration-300 ease-in-out"
               >
                 <FaEnvelope className="mr-2" /> contact@jawaher.com
               </a>
             </li>
-            <li className="flex items-center">
+            <li>
               <a 
                 href="tel:+123456789" 
-                className="flex items-center hover:text-chocolate-700 transition duration-300"
+                className="flex items-center text-gray-400 hover:text-yellow-500 transition-all duration-300 ease-in-out"
               >
                 <FaPhone className="mr-2" /> +1 (234) 567-890
               </a>
             </li>
-            <li className="flex items-center">
-              <span className="hover:text-chocolate-700 transition duration-300">123 Blog St, Blog City, BC 12345</span>
+            <li className="text-gray-400 hover:text-yellow-500 transition-all duration-300 ease-in-out">
+              123 Blog St, Blog City, BC 12345
             </li>
           </ul>
         </div>
-        <div className="flex space-x-4 mt-4 md:mt-0">
-          <a 
-            href="https://twitter.com/example" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="hover:text-chocolate-700 transition duration-300"
+
+        <div className="flex space-x-6 text-center">
+          <a
+            href="https://twitter.com/example"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-500 transition-all duration-300 ease-in-out"
           >
-            <FaTwitter className="text-xl" />
+            <FaTwitter className="text-2xl" />
           </a>
-          <a 
-            href="https://github.com/example" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="hover:text-chocolate-700 transition duration-300"
+          <a
+            href="https://github.com/example"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-500 transition-all duration-300 ease-in-out"
           >
-            <FaGithub className="text-xl" />
+            <FaGithub className="text-2xl" />
           </a>
-          <a 
-            href="https://linkedin.com/company/example" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="hover:text-chocolate-700 transition duration-300"
+          <a
+            href="https://linkedin.com/company/example"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-500 transition-all duration-300 ease-in-out"
           >
-            <FaLinkedin className="text-xl" />
+            <FaLinkedin className="text-2xl" />
           </a>
         </div>
       </div>
