@@ -2,8 +2,8 @@
 const nextConfig = {
     images: {
         domains: [
-            'media.istockphoto.com', // previously added domain
-            'images.unsplash.com',   // add this line
+            'media.istockphoto.com',
+            'images.unsplash.com',
           ],
       },
 };
